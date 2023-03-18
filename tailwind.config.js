@@ -15,6 +15,10 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-ubuntu)"],
       },
+      colors: {
+        "web-dark": "#574a62",
+        "web-light": "#7f65a1",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
